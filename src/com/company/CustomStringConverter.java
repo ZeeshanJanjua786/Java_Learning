@@ -6,6 +6,7 @@ public class CustomStringConverter {
      for (int i = 0; i < singleChar.length; i++){
          if (singleChar[i]>='a' && singleChar[i] <= 'z'){
              singleChar[i] = (char) (singleChar[i]-32);
+
          }
 
      }
